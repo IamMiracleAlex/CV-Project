@@ -1,2 +1,3 @@
-# Css-update
- I updated the the html file by adding the neccessary tags and classes and then create a design using css
+# CV Like a web page.
+
+This repository is for creating CV with html and css.
