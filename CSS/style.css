@@ -1,15 +1,22 @@
 body {
-   background-color: whitesmoke;
+   position: absolute;
+   background-color: hsla(195, 50%, 91%, 0.986);
    font-family:  Arial, Helvetica, sans-serif;
    font-size: 17px;
    line-height: 1.5;
+   left: 220px;
+   border: 1px solid whitesmoke;
+   padding: 20px 30px;
 }
 pre strong {
    font-size: 25px;
    color: rgba(0, 0, 255, 0.849);
 }
 h3 {
-   color:rgba(0, 0, 255, 0.849);
+   color:white;
+   background-color: blue;
+   text-align: center;
+   padding: 5px 0px;
 }
 pre span {
    font-weight: bold;
@@ -17,4 +24,47 @@ pre span {
 .link {
    text-decoration: underline;
    font-weight: normal;
+}
+html {
+   position: relative;
+   background-color: white; 
+}
+.img-div {
+   padding-left: 280px;
+}
+img {
+   border: 3px solid lightblue;
+   border-radius: 25px;
+}
+.container {
+   background-color: rgba(174, 243, 243, 0.993);
+}
+.container h3 {
+   background-color: blueviolet;
+   color: white;
+   text-align: center;
+   padding: 5px 0px;
+}
+form {
+   padding: 20px 340px;
+}
+button {
+   background-color: blueviolet;
+   height: 45px;
+   width: 100px;
+   color: white;
+   border: 1px solid blueviolet;
+   border-radius: 10px;
+   font-size: 20px;
+}
+label {
+   font-size: 20px;
+}
+input {
+   height: 30px;
+   padding-left: 5px;
+   border-radius: 3px;
+}
+textarea {
+   padding-left: 5px;
 }
